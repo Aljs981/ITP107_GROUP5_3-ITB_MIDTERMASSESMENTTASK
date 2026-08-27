@@ -16,3 +16,25 @@ Do this **once** at the beginning to download the project to your computer.
    run the command:
    ```bash
    flutter pub get
+
+4. If changes are made in the repo, you should always Pull the latest changes before making your own work.
+   run the command:
+   ```bash 
+   git pull origin main
+
+5. To add the changes you made to the repository you must do These Command in this steps.
+   First to stage all the changes run the command:
+   ```bash
+   git add .
+   ```
+   Second After Staging all the changes you need to commit with Descriptive message i.e ("refactored the sign up logic")
+   Using the command:
+   ```bash
+   git commit -m "Descriptive Message"
+   ```
+
+   Third to finally push the work you've done run the comand:
+   ```bash
+   git push origin main
+   ```
+   
