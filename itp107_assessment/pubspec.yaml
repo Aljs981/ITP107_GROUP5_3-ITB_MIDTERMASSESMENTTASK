@@ -17,3 +17,22 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  
+  # Nasa assets folder lahat ng fonts, icons, images lalagay nyo dito lahat ng assets
+  # para marecognize ng flutter.
+  # If image lagay lang kayo image sa images folder then type nyo dito. same thing lang din
+  # with other assets.
+  # fonts link: https://fonts.google.com/
+  assets:
+    - assets/images/booksample.webp
+
+  fonts:
+   - family: Roboto
+     fonts: 
+      - asset: assets/fonts/Roboto-Regular.ttf
+     
+      - asset: assets/fonts/Roboto-SemiBold.ttf
+        weight: 400
+
+      - asset: assets/fonts/Roboto-ExtraBold.ttf
+        weight: 700

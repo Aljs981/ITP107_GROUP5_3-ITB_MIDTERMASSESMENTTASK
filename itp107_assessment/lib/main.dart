@@ -9,12 +9,21 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('Hello World!'),
-        ),
+            child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+                Text('Hello World!', style: TextStyle( fontFamily: 'Roboto', fontSize: 50), textAlign: TextAlign.center),
+                Image.asset('assets/images/booksample.webp', width: 120, height: 120,), 
+              ],
+          ),
+        ) 
+       
       ),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
