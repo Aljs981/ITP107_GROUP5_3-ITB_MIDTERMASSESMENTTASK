@@ -136,7 +136,7 @@ class _BookCatalogSectionState extends State<BookCatalogSection> {
             style: TextStyle(
               fontFamily: 'AncizarSerif',
               fontWeight: FontWeight.bold,
-              fontSize: 18,
+              fontSize: 22,
             ),
           ),
           const SizedBox(height: 12),
