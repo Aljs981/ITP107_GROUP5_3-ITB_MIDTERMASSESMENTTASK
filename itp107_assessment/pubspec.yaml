@@ -40,3 +40,9 @@ flutter:
         - asset: assets/fonts/AncizarSerif-Regular.ttf
         - asset: assets/fonts/AncizarSerif-Bold.ttf
           weight: 700 
+    - family: PlusJakartaSans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans.ttf
+        - asset: assets/fonts/PlusJakartaSans-Bold.ttf
+        - asset: assets/fonts/PlusJakartaSans-Italic.ttf
+        
