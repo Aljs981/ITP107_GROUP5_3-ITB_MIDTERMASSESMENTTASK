@@ -13,6 +13,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  google_fonts: ^6.1.0
   flutter_lints: ^6.0.0
 
 flutter:
@@ -24,7 +25,7 @@ flutter:
   # with other assets.
   # fonts link: https://fonts.google.com/
   assets:
-    - assets/images/booksample.webp
+    - assets/images/
 
   fonts:
    - family: Roboto
