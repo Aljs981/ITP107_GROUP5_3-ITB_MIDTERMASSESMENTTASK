@@ -133,7 +133,11 @@ class _BookCatalogSectionState extends State<BookCatalogSection> {
           const SizedBox(height: 16),
           const Text(
             'BOOK CATALOG',
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+            style: TextStyle(
+              fontFamily: 'AncizarSerif',
+              fontWeight: FontWeight.bold,
+              fontSize: 18,
+            ),
           ),
           const SizedBox(height: 12),
           GridView.builder(
