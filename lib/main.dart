@@ -455,6 +455,48 @@ final List<Book> books = [
     rating: 4,
     imageUrl: 'assets/images/jane-eyre.png',
   ),
+  Book(
+    title: 'The House In The Cerulean Sea',
+    author: 'TJ Klune',
+    price: 450.00,
+    rating: 4,
+    imageUrl: 'assets/images/cerulean-sea.png',
+  ),
+  Book(
+    title: 'Anne Of Green Gables',
+    author: 'L. M. Montgomery',
+    price: 450.00,
+    rating: 4,
+    imageUrl: 'assets/images/anne-of-gables.png',
+  ),
+  Book(
+    title: 'The Little Paris Bookshop',
+    author: 'Nina George',
+    price: 450.00,
+    rating: 3,
+    imageUrl: 'assets/images/little-paris.png',
+  ),
+  Book(
+    title: 'The Underground Railroad',
+    author: 'Colson Whitehead',
+    price: 650.00,
+    rating: 4,
+    imageUrl: 'assets/images/underground.png',
+  ),
+  Book(
+    title: 'The Vegetarian',
+    author: 'Han Kang',
+    price: 650.00,
+    rating: 4,
+    imageUrl: 'assets/images/the-vegetarian.png',
+  ),
+  Book(
+    title: 'The Year Of Magical Thinking',
+    author: 'Joan Didion',
+    price: 650.00,
+    rating: 4,
+    imageUrl: 'assets/images/magical-think.png',
+  ),
 ];
 
 class BookCatalogSection extends StatefulWidget {
@@ -521,6 +563,19 @@ class _BookCatalogSectionState extends State<BookCatalogSection> {
                 onDoubleTapBookmark: () => _handleBookmark(book),
               );
             },
+          ),
+          const SizedBox(height: 20),
+          const Divider(color: Colors.black26, thickness: 1),
+          const SizedBox(height: 8),
+          const Center(
+            child: Padding(
+              padding: EdgeInsets.symmetric(horizontal: 8),
+              child: Text(
+                'Single Tap - CHECKOUT  button | Double Tap - Catalog Book | Long Press - Bookmark Icon',
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 11, color: Colors.black54),
+              ),
+            ),
           ),
           const SizedBox(height: 16),
         ],
